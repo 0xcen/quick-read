@@ -1,6 +1,6 @@
 # QuickRead
 
-**Speed reading, reimagined for your Mac.**
+**Read anything at 500 WPM with a single hotkey.**
 
 I saw [this mega viral tweet](https://x.com/UltraLinx/status/2011434505253650868) from Oliur about RSVP speed reading and couldn't stop thinking about it. I wanted a way to lock in and focus on quick reading any text, articles, posts, whatever, without distractions. Full screen. Just me and the words.
 
