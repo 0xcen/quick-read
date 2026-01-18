@@ -22,11 +22,30 @@ The red letter you see? That's the ORP (Optimal Recognition Point). It's where y
 
 ## Installing
 
-1. Download the DMG from Releases
-2. Drag to Applications
-3. That's it
+1. Download the DMG from [Releases](https://github.com/0xcen/quick-read/releases)
+2. Open the DMG and drag QuickRead to Applications
+3. Run this command to bypass macOS Gatekeeper (app is unsigned):
+   ```bash
+   xattr -cr /Applications/QuickRead.app
+   ```
+4. Launch QuickRead from Applications
 
-(First launch: right-click → Open, because we're not paying Apple $99/year to tell you we're trustworthy)
+## Build from source
+
+Requires macOS 14+ and Swift 5.9+.
+
+```bash
+git clone https://github.com/0xcen/quick-read.git
+cd quick-read
+
+# Build and run directly
+swift build -c release
+.build/release/QuickRead
+
+# Or create a .app bundle and DMG
+./build-app.sh
+# Output: .build/release/QuickRead.app and .build/release/QuickRead-1.0.0.dmg
+```
 
 ## Features
 
